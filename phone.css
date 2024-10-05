@@ -1,34 +1,107 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-#navbar{
-    flex-direction: column;
-     overf
-    
-    }#navbar ul{
-    
-        position: relative;
+@media (max-width:1050px) {
+    #navbar ul {
+        display: none;
     }
-#navbar ul li a {
-    color: blue;
-    flex-wrap:wrap;
-    padding: 4px 0px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-family: "ABeeZee", sans-serif;
+    #list-0 {
+        display: block;
+    }
+    /* #section-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+#navbar {
+    width: auto;
+    justify-content: space-evenly;
 }
-.all-img{
-    background-color: aqua;
-}
-#h1{
-    font-size: 1.0rem;
-}
-#list-2,#list-3,#list-4{
+
+#navbar span {
     display: none;
 }
-#navbar img{
-    color: #ffffff;
-    background-color: #010e22;
-    height: 11px;
+
+#navbar ul {
+    width: 0%;
+}
+
+#navbar ul li a {
+    padding: 11px 11px 11px 0px;
+}
+
+#navbar button {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#navbar img {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+#sign-in{
+    margin: 0px 0px 0px 0px;
+
+}
+
+#logo-1 {
+    height: 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+#section-3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+#section-3 p {
+    padding: 0px 0px 0px 0px;
+    font-size: 10px;
+    line-height: 17px;
+
+}
+
+#section-3 h1 {
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#section-4 {
+    width: 350px;
+}
+
+#section-4 ul {
+    width: 350px;
+}
+
+#section-4 ul li a {
+    font-size: 10px;
+
+}
+
+.all-img {
+    padding: 0px 0px 0px 0px;
+}
+
+.all-img img {
+    height: 75px;
+    width: 110px;
+
+}
+
+#list-2,
+#list-3,
+#list-4,
+#span,
+#join-prime {
+    display: none;
+}
+
+#user {
+    overflow: visible;
+}
+
+#search {
+    margin-left: 5px;
+} */
 }
