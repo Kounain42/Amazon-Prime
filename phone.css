@@ -7,7 +7,7 @@
 
     }
     #section-1 h1{
-        font-size: medium;
+        font-size:large;
 
     }
 }
@@ -109,6 +109,7 @@
     .bg-img {
         width: 85%;
     }
+    width: 65px;
 
     .bg-img1 {
         width: 85%;
@@ -138,6 +139,9 @@
     .bg-img {
         width: 223%;
 
+    }
+    .all-img{
+        width: 65px;
     }
 }
 @media (max-width:630px){
@@ -190,6 +194,7 @@
         width: 245px;
         font-size: 22px;
     }
+    
     #section-1 p {
         margin-left: 0px;
         width: 316px;
@@ -205,7 +210,7 @@
 
     }
     #section-1{
-        height: 85vh;
+        height: 53vh;
         background-color: black;
     }
     #sign-in {
@@ -223,7 +228,7 @@
     }
     #section-2{
         background-color: black;
-        height: 85vh;
+        height: 53vh;
     } #section-2 h1{
         margin-left: 14px;
         width: 299px;
@@ -286,12 +291,68 @@
     #section-2 {
         height: 151vh;
     }
+    .all-img {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 299px;
 }
+.third-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section-2 {
+    height: 95vh;
+}
+#section-3 h1{
+    padding: 29px 0px 0px 54px;
+}#section-3 {
+    padding: 26px 0px 0px 37px;
+}}
+
 @media (max-width:325px){
     #section-1 p{
-        width: 285px;
+        width: 260px;
+        text-align: center;
     }
     #section-2 {
         height: 90vh;
+    }#section-2  h1{
+    width: 263px;   
+    font-size: 18px; 
+    }#section-2 p{
+    width: 230px;
+    }
+    #section-3 {
+        padding: 26px 0px 0px 0px;
+    }
+    #sign-in {
+        margin: 11px 30px;
+        width: 217px;
+        height: 50px;
+        border-radius: 4px;
+    }
+    .bg-img {
+        height: 232px;
+        width: 261px;
+    }
+    .content {
+        padding: 0px 11px;
+    }
+    #section-4 ul {
+        width: 307px;
+    }
+    #section-1 h1 {
+        margin-left: 11px;
+    }
+    #section-3 h1 {
+        text-align: center;
+        width: 303px;
+        font-size: 25px;
+        padding: 29px 0px 0px 8px;
+    }    #section-3 p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 26px 0px 0px 35px;
     }
 }
