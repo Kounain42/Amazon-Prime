@@ -17,13 +17,19 @@
     align-items: center;
 }
 
+#logo-1 {
+    background-color: #00050d;
+}
+
 .span {
     align-items: center;
     font-size: small;
 }
+
 .img {
     display: flex;
 }
+
 #navbar ul {
     display: flex;
     text-decoration: none;
@@ -59,9 +65,11 @@
     font-size: small;
     font-family: "ABeeZee", sans-serif;
 }
-#list-0  {
+
+#list-0 {
     display: none;
 }
+
 #list-0 a {
     color: white;
     padding: 9px 22px;
@@ -71,9 +79,13 @@
 }
 
 #navbar img {
-    color:white;
     height: 14px;
-    margin-left: 30px;    
+    margin-left: 30px;
+    background-color: white;
+}
+
+#user-1 {
+    margin: 0px;
 }
 
 #navbar span {
@@ -88,11 +100,14 @@
     background-color: white;
     cursor: pointer;
 }
+
 .navigation {
     min-width: 330px;
     display: flex;
     align-items: center;
+    justify-content:space-evenly;
 }
+
 #search {
     font-size: 2rem;
     border: none;
@@ -162,7 +177,7 @@
 }
 
 #menu {
-    padding: 8px 7px;    
+    padding: 8px 7px;
     background: none;
     border: none;
     font-size: 1.2rem;
@@ -174,10 +189,14 @@
     color: white;
 }
 
-#menu:hover{
+#menu:hover {
     color: #000f27;
     background-color: white;
-} 
+}
+
+#menu img {
+    margin: 0px 0px 0px 0px;
+}
 
 /* section 1 */
 #section-1 {
@@ -185,15 +204,34 @@
     height: auto;
     display: flex;
 }
+
 .bg-black {
     width: 45%;
     background-color: black;
     box-shadow: 5px 5px 10px #000;
     position: relative;
 }
+
+.bg-black1 {
+    width: 45%;
+    background-color: black;
+    box-shadow: 5px 0px 10px #000;
+    position: relative;
+}
+
 .bg-img {
     width: 55%;
     background-image: url('MLP.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: right;
+}
+
+.bg-img1 {
+    width: 55%;
+    background-image: url('TVOD_MLP_Right.jpg');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,9 +253,16 @@
 
 .content {
     width: 50%;
-    padding: 45px 30px;
+    padding: 45px 84px;
     position: absolute;
     background: linear-gradient(90deg, black, black, black, black, black, transparent);
+}
+
+.content-1 {
+    width: 50%;
+    padding: 45px 30px;
+    position: absolute;
+    background: linear-gradient(90deg, black, black, black, black, transparent);
 }
 
 #section-1 p {
@@ -228,6 +273,7 @@
     font-family: 'roboto';
     font-style: normal;
     width: 400px;
+    
 }
 
 #sign-in {
@@ -243,12 +289,12 @@
     font-weight: bolder;
 }
 
+
 #section-2 {
-    background-image: url('TVOD_MLP_Right.jpg');
-    height:100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+
 }
 
 #section-2 h1 {
@@ -261,6 +307,7 @@
     padding: 33px 25px 3px 56px;
     font-size: 2.5rem;
     line-height: 2.8rem;
+    width: 523px;
 }
 
 #section-2 p {
@@ -268,10 +315,10 @@
     padding: 2%;
     font-size: 1.3rem;
     line-height: 1.6rem;
-    padding: 20px 92px 17px 74px;
+    padding: 20px 92px 17px 56px;
     font-family: 'roboto';
     font-style: normal;
-    width: 35%;
+    width: 390px;    
 }
 
 #rent {
@@ -336,8 +383,6 @@ div .images {
 .all-img img {
     height: 110px;
     width: 175px;
-    /* border: 2px solid red; */
-    /* width: 400px; */
     margin-top: 5px;
     margin-right: 10px;
 }
@@ -391,4 +436,22 @@ div .images {
 #footer {
     margin-top: 5px;
     overflow: hidden;
+}
+@media (max-width:700px) {
+    #section-3 {
+        display: block;
+        height: auto;
+        
+    }
+    #section-3 h1{
+        font-size: 2.4rem;
+        line-height: 2.0rem;
+    }
+    #section-3 p{
+        font-size: 1.0rem;
+        line-height: 22px;
+    }
+    .all-img{
+        justify-content: center;
+    }
 }
