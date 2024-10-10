@@ -214,7 +214,7 @@
 
 .bg-black1 {
     width: 45%;
-    background-color: black;
+    background-color: black; 
     box-shadow: 5px 0px 10px #000;
     position: relative;
 }
@@ -225,7 +225,7 @@
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 720px;
     background-position: right;
 }
 
@@ -395,7 +395,7 @@ div .images {
     background-color: #222222;
     height: 20vh;
     text-align: center;
-    height: 100px;
+    height: 125px;
 }
 
 #section-4 img {
